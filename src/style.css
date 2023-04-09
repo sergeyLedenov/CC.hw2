@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(193, 193, 193);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: fit-content;
+    padding: 6px 10px 6px 10px;
+    background-color: rgb(22, 21, 30);
+    color: white;
+    font-size: smaller;
+
+    display: flex;
+    justify-content: baseline;
+}
+
+.menu {
+    margin-left: calc(100% - 126.41px - 24px);
+    margin-top: 6.5px;
+}
+
+main {
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 0px;
+    margin: 20px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main > form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+hr {
+    width: 50%;
+}
+
+.submit {
+    width: fit-content;
+    padding: 5px 20px;
+    margin: 0 auto;
+    background-color: rgb(0, 149, 255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    background-color: rgb(37, 164, 255);
+}
+
+footer {
+    height: fit-content;
+    padding: 25px 10px 25px 10px;
+    background-color: rgb(22, 21, 30);
+    color: white;
+    font-size: smaller;
+    display: flex;
+    justify-content: baseline;
+    text-align: center;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 100%;
+    border: 0;
+    background-color: #FFFFFF;
+    height: 44px;
+    width: 44px;
+    transition: 0.1s;
+}
+
+button:hover {
+    background-color: #2196F3;
+}
+
+button:hover > svg > path {
+    background-color: #2196F3;
+    fill: rgb(255, 255, 255);
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.btn > h1 {
+    margin-bottom: 10px;
+}
